@@ -13,9 +13,9 @@ use League\OAuth2\Client\Provider\Google;
 if (empty($_SESSION['userLogin'])) {
     
     $provider = new Google([
-        'clientId'     => '45480678625-r124o514vvp0q9qru7lhkvkfnu4uj49h.apps.googleusercontent.com',
-        'clientSecret' => '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',
-        //6LcBk2seAAAAABS9SNqgfdAQambc_XxX7DcqxymE
+        'clientId'     => '',
+        'clientSecret' => '',
+        
         'redirectUri'  => 'https://tilevu.com.br/auth2.0/actions/google-oauth2-login.php',
     ]);
     
